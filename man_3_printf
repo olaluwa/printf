@@ -101,26 +101,6 @@ The character \fI%\fR is followed by zero the following flags:
 .R The \fB_printf()\fR is a project collaboration between \fBIsrael Adenuga\fR and \fBChidozie Ogwalu\fR, actual students of Software Engineering at \fBHolberton School\fR.
 .SH BUGS
 .R In process
-.SH EXAMPLE
-.R To print the the string \fBHello Holberton!\fR and its length in decimal.
-
-#include ''holberton.h''
-
-int main(void)
-
-{
-
-        int length;
-
-        _printf(''%s'', ''Hello, Holberton!'')
-
-        _printf(''Hello Holberton! contains %d characters'', length);
-
-        length = _printf(''Hello Holberton!'');
-
-        return (0);
-
-}
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
